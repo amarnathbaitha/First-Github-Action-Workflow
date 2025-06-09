@@ -1,13 +1,13 @@
 name: Amarnathbaitha
 
-On: 
+on:
   push:
-    branches:[ main ]
+    branches: [main]
 
 jobs:
   demo:
-  runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
 
-  steps:
-   - name: Greetings
-    run: echo "Hello from Amar"
+    steps:
+      - name: Greetings
+        run: echo "Hello from Amar"
